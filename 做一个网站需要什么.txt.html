@@ -1,0 +1,233 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc 3.11" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>做一个网站需要什么</title><link rel="stylesheet" href="style.css">
+  <style>
+    /* Default styles provided by pandoc.
+    ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+    */
+    html {
+      color: #1a1a1a;
+      background-color: #fdfdfd;
+    }
+    body {
+      margin: 0 auto;
+      max-width: 36em;
+      padding-left: 50px;
+      padding-right: 50px;
+      padding-top: 50px;
+      padding-bottom: 50px;
+      hyphens: auto;
+      overflow-wrap: break-word;
+      text-rendering: optimizeLegibility;
+      font-kerning: normal;
+    }
+    @media (max-width: 600px) {
+      body {
+        font-size: 0.9em;
+        padding: 12px;
+      }
+      h1 {
+        font-size: 1.8em;
+      }
+    }
+    @media print {
+      html {
+        background-color: white;
+      }
+      body {
+        background-color: transparent;
+        color: black;
+      }
+      p, h2, h3 {
+        orphans: 3;
+        widows: 3;
+      }
+      h2, h3, h4 {
+        page-break-after: avoid;
+      }
+    }
+    p {
+      margin: 1em 0;
+    }
+    a {
+      color: #1a1a1a;
+    }
+    a:visited {
+      color: #1a1a1a;
+    }
+    img {
+      max-width: 100%;
+    }
+    svg {
+      height: auto;
+      max-width: 100%;
+    }
+    h1, h2, h3, h4, h5, h6 {
+      margin-top: 1.4em;
+    }
+    h5, h6 {
+      font-size: 1em;
+      font-style: italic;
+    }
+    h6 {
+      font-weight: normal;
+    }
+    ol, ul {
+      padding-left: 1.7em;
+      margin-top: 1em;
+    }
+    li > ol, li > ul {
+      margin-top: 0;
+    }
+    blockquote {
+      margin: 1em 0 1em 1.7em;
+      padding-left: 1em;
+      border-left: 2px solid #e6e6e6;
+      color: #606060;
+    }
+    code {
+      white-space: pre-wrap;
+      font-family: Menlo, Monaco, Consolas, 'Lucida Console', monospace;
+      font-size: 85%;
+      margin: 0;
+      hyphens: manual;
+    }
+    pre {
+      margin: 1em 0;
+      overflow: auto;
+    }
+    pre code {
+      padding: 0;
+      overflow: visible;
+      overflow-wrap: normal;
+    }
+    .sourceCode {
+     background-color: transparent;
+     overflow: visible;
+    }
+    hr {
+      border: none;
+      border-top: 1px solid #1a1a1a;
+      height: 1px;
+      margin: 1em 0;
+    }
+    table {
+      margin: 1em 0;
+      border-collapse: collapse;
+      width: 100%;
+      overflow-x: auto;
+      display: block;
+      font-variant-numeric: lining-nums tabular-nums;
+    }
+    table caption {
+      margin-bottom: 0.75em;
+    }
+    tbody {
+      margin-top: 0.5em;
+      border-top: 1px solid #1a1a1a;
+      border-bottom: 1px solid #1a1a1a;
+    }
+    th {
+      border-top: 1px solid #1a1a1a;
+      padding: 0.25em 0.5em 0.25em 0.5em;
+    }
+    td {
+      padding: 0.125em 0.5em 0.25em 0.5em;
+    }
+    header {
+      margin-bottom: 4em;
+      text-align: center;
+    }
+    #TOC li {
+      list-style: none;
+    }
+    #TOC ul {
+      padding-left: 1.3em;
+    }
+    #TOC > ul {
+      padding-left: 0;
+    }
+    #TOC a:not(:hover) {
+      text-decoration: none;
+    }
+    span.smallcaps{font-variant: small-caps;}
+    div.columns{display: flex; gap: 1.5em;}
+    div.column{flex: auto;}
+    @media screen {
+    div.columns{gap: min(4vw, 1.5em);}
+    div.column{overflow-x: auto;}
+    }
+    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+    /* The extra [class] is a hack that increases specificity enough to
+       override a similar rule in reveal.js */
+    ul.task-list[class]{list-style: none;}
+    ul.task-list li input[type="checkbox"] {
+      font-size: inherit;
+      width: 0.8em;
+      margin: 0 0.8em 0.2em -1.6em;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+<p>好问题 👍
+其实没想好做什么完全没关系，先把”建站这件事本身需要什么”搞清楚，反而更容易触发灵感。</p>
+<p>我给你拆成四样东西，从必须到可选：</p>
+<p>✅ 必须有的 3 样</p>
+<ol type="1">
+<li>域名（就是网址）</li>
+</ol>
+<p>比如 yourname.com、xiaomiao.xyz</p>
+<p>去哪买：Namesilo（便宜、送隐私保护）、Namecheap、国内的阿里云/腾讯云</p>
+<p>多少钱：¥60–80/年（.com），小众后缀（.xyz / .me）甚至 ¥20–30/年</p>
+<p>💡 建议：先别纠结名字，挑个能记住的就行，以后可以换</p>
+<ol start="2" type="1">
+<li>服务器/托管（让网站真正”活着”）</li>
+</ol>
+<p>分两条路：</p>
+<p>类型适合谁推荐费用静态托管（纯页面，无后台）博客、作品集、落地页Vercel、Netlify、GitHub
+Pages💰
+免费动态服务器（有数据库、用户系统）工具、SaaS、社区Vercel+Supabase、Railway、阿里云轻量应用服务器💰
+免费额度够玩 → 约¥20–50/月</p>
+<p>新手强烈建议从静态托管开始，零成本、部署一行命令搞定，不用管服务器运维。</p>
+<ol start="3" type="1">
+<li>代码/建站工具（网站的内容从哪来）</li>
+</ol>
+<p>完全不会写代码：</p>
+<p>Carrd——单页网站，拖拖拽拽，10分钟上线，¥70/年</p>
+<p>WordPress——最成熟，插件海量，但略重</p>
+<p>Webflow——设计自由度极高，学习曲线稍陡</p>
+<p>会一点或愿意学：</p>
+<p>Astro + 模板——性能极好，写 Markdown 就能出博客，GitHub 连 Vercel
+自动部署</p>
+<p>Notion 当 CMS——用 Notion 写内容，网站自动同步，零代码维护</p>
+<p>会写代码：</p>
+<p>前端：Next.js / Vue / Svelte</p>
+<p>样式：Tailwind CSS（别自己写 CSS，用这个效率翻倍）</p>
+<p>后端：Supabase（免费 PostgreSQL + 认证）、Cloudflare
+Workers（边缘计算，免费额度很大）</p>
+<p>🔧 有了更好但不是必须的</p>
+<p>东西干嘛用推荐HTTPS 证书浏览器不报”不安全”自动送（Let’s
+Encrypt），Vercel/Netlify 默认开启邮箱hi@yourname.com 比 QQ
+邮箱专业Cloudflare Email Routing（免费转发到
+Gmail）分析工具看谁来了、从哪来Plausible（隐私友好）、Google
+AnalyticsCDN访问加速Cloudflare（免费，还能防攻击）</p>
+<p>🚀 最快上手路径（零基础也能走）</p>
+<p>买域名（¥60） ↓ 用 Carrd 或挑个 Astro 模板 ↓ 连到 Vercel / Netlify
+部署 ↓ 域名解析过去 ↓ 🎉 网站上线了</p>
+<p>全程2小时内能搞定，钱也就花个域名钱。</p>
+<p>🤔 那怎么找到”做什么”呢？</p>
+<p>给你 3 个触发思路的方法：</p>
+<p>“我最近在搜什么？”——你最近搜过什么问题的答案，网上回答得不够好？那就是机会。</p>
+<p>“我有什么清单？”——书单、工具清单、资源清单，整理成页面就是内容。</p>
+<p>“我朋友老问我什么？”——别人总找你问的事，说明你有这个领域的认知差，做成网站帮更多人。</p>
+<p>要不要我帮你挑一个最适合你当前技术水平的建站方案？你告诉我：①
+会不会写代码 ② 想花多少钱 ③
+大概想花多少时间折腾，我直接给你一个具体的起步路线 🛠️</p>
+</body>
+</html>
+
