@@ -47,10 +47,10 @@
 @media (max-width: 500px) {
         .article {
                   font-size: 18px;
-panding: 16px 14px;
+	padding: 16px 14px;
                   }
 .article h1 {
-		font-size:13px;
-panding:10px 12px;                  
+	font-size:13px;
+	padding:10px 12px;                  
                 }  
-                }
+ }
