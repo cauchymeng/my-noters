@@ -1,0 +1,24 @@
+body {
+  font-family: "Microsoft YaHei", "SimSun", sans-serif;
+  font-size: 14px;
+  line-height: 1.7;
+  margin: 28px auto;
+  max-width: 980px;
+  padding: 0 18px;
+  color: #222;
+  background: #fff;
+}
+p { margin: 0.45em 0; text-indent: 2em; }
+h1, h2, h3, h4, h5, h6, nav, .toc, table, caption, figcaption, blockquote, pre { text-indent: 0; }
+h1, h2, h3 { margin: 0.8em 0 0.5em; }
+h1 { font-size: 22px; }
+h2 { font-size: 18px; }
+h3 { font-size: 16px; }
+a { color: #000; text-decoration: underline; }
+table { border-collapse: collapse; width: auto; margin: 0.9em auto; font-size: 14px; }
+th, td { border: 1px solid #333; padding: 5px 12px; vertical-align: middle; }
+th { background: #f3f3f3; font-weight: bold; text-align: center; }
+td { text-align: center; }
+img { max-width: 100%; height: auto; }
+hr { border: none; border-top: 1px solid #888; margin: 1em 0; }
+pre, code { font-family: Consolas, "Courier New", monospace; white-space: pre-wrap; }

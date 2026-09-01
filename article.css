@@ -44,3 +44,9 @@
   font-family: Consolas, Monaco, "Courier New", monospace;
   font-size: 15px;
 }
+@media (max-width: 600px) {
+        .article {
+                  font-size: 1.6em;
+                  }                  
+                }  
+                
